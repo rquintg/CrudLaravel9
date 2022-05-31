@@ -38,6 +38,8 @@
                                         
 										<th>Categoria</th>
 										<th>Descripcion</th>
+                                        <th>Creacion</th>
+                                        <th>Modificacion</th>
 
                                         <th></th>
                                     </tr>
@@ -49,6 +51,8 @@
                                             
 											<td>{{ $category->Categoria }}</td>
 											<td>{{ $category->Descripcion }}</td>
+                                            <td>{{ $category->created_at }}</td>
+                                            <td>{{ $category->updated_at }}</td>
 
                                             <td>
                                                 <form action="{{ route('categories.destroy',$category->id) }}" method="POST">
