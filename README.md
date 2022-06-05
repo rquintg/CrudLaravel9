@@ -27,7 +27,7 @@ los registros.
 
 _Recordemos que solo esta desplegado el Backend, el Front esta en proceso_
 
-Mira **Intalacion** para conocer como desplegar el proyecto.
+Mira **Instalacion** para conocer como desplegar el proyecto.
 
 
 ### Pre-requisitos 📋
@@ -45,7 +45,7 @@ Si usas un entorno Winodws puedes usar:
 
 ### Instalación 🔧
 
-_Paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
+_Paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose **(importante instalar laravel/ui)**_
 
 _Consola_
 
@@ -53,6 +53,7 @@ _Consola_
 $ gh repo clone rquintg/CrudLaravel9
 $ cd CrudLaravel9
 $ npm install
+$ composer require laravel/ui
 
 ```
 
