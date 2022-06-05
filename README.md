@@ -36,7 +36,7 @@ _Frameworks y dependencies que necesitas_
 
 - [Laravel 9](https://laravel.com/)
 - [Composser](https://getcomposer.org/)
-- [Mysql](hhttps://www.mysql.com/)
+- [Mysql](https://www.mysql.com/)
 - [PHP](https://www.php.net/)
 
 Si usas un entorno Winodws puedes usar:
